@@ -1,0 +1,222 @@
+/* Color template: https://colorhunt.co/palette/1c3879607eaaeae3d2f9f5eb */
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.875rem;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #1C3879;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #607EAA;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1C3879;
+}
+
+#my-name {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+#my-position {
+  position: absolute;
+  font-size: 1.5rem;
+  left: 5%;
+  top: 40%;
+}
+
+#my-photo {
+  border-radius: 30px;
+  width: 31.25rem;
+  float: right;
+  margin: 4rem 5rem auto 0;
+  right: 8%;
+  top: 8%;
+}
+
+.top-container {
+  background-color: #EAE3D2;
+  position: relative;
+  height: 43.75rem;
+  color: #1C3879;
+}
+
+.my-info {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+
+.middle-container {
+  background-color: #EAE3D2;
+}
+
+.middle-container h4 {
+  padding-bottom: 20px;
+}
+
+.introduction {
+  background-color: #F9F5EB;
+  line-height: 2;
+}
+
+.intro-text {
+  padding: 0 40px 40px 40px;
+  text-align: justify;
+}
+
+.skills {
+  background-color: #607EAA;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 80px auto 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills h3 {
+  color: #EAE3D2;
+}
+
+.skill-text {
+  color: white;
+  padding-bottom: 80px;
+}
+
+.programming-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.godot-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.photography-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.projects {
+  background-color: #354b72;
+  position: relative;
+}
+
+.project-text {
+  color: white;
+  text-align: justify;
+}
+
+.project-img {
+  padding: 20px;
+}
+
+.projects h3 {
+  color: #EAE3D2;
+}
+
+.flight-dealer-row {
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  left: 5%;
+  top: 10%;
+}
+
+.automated-email-sender-row {
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  left: 5%;
+  bottom: 10%;
+}
+
+.flashcard-app-row {
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  right: 5%;
+  top: 10%;
+}
+
+.snake-ade-row {
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  right: 5%;
+  bottom: 10%;
+}
+
+.dark-bg-h2 {
+  color: #EAE3D2;
+}
+
+.contact-me {
+  background-color: #F9F5EB;
+  padding: 0 0 40px 0;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: #1C3879;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #607EAA;
+  text-decoration: none;
+}
+
+.bottom-container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EAE3D2;
+  padding: 30px 0 20px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
