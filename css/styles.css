@@ -293,7 +293,10 @@ a:hover {
 @media screen and (max-width: 800px) {
   .flight-dealer-row, .automated-email-sender-row, .flashcard-app-row, .snake-ade-row {
     width: 49.999%;
-    display: block;
+  }
+  
+  h2 {
+    font-size: 10vw;
   }
 
   .projects h3 {
