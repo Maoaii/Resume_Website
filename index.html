@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lucas Girotto</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon2.ico">
@@ -12,9 +13,16 @@
 </head>
 
 <body>
+  <div class="nav-bar">
+    <a href="#home">Home</a>
+    <a href="#introduction">Introduction</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact-me">Contact Me</a>
+  </div>
 
 
-  <div class="top-container">
+  <div id="home" class="top-container">
     <h1 id="my-name">Lucas Girotto,</h1>
     <p id="my-position">a Computer Science student.</p>
     <img id="my-photo" src="images/profilepicture.jpeg" alt="Lucas' profile picture">
@@ -32,21 +40,22 @@
 
   <div class="middle-container">
 
-    <div class="introduction">
+    <div id="introduction" class="introduction">
       <h2>Hello.</h2>
-      <h4 class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Lectus vestibulum mattis ullamcorper
-        velit. Arcu cursus
-        euismod quis viverra nibh cras. Iaculis nunc sed augue lacus viverra vitae. Volutpat maecenas volutpat blandit aliquam.</h4>
+      <h4 class="intro-text">I'm a second year <strong>Computer Science</strong> student at <strong>NOVA School of Science and Technology</strong>. I got into programming
+      in 2019 with online courses such as <strong>CS50's Introduction to Computer Science</strong> and <strong>Complete C# Unity Game Developer 2D</strong>,
+    while I did my first year in Dentistry. One year later I jumped into Computer Science and haven't looked back since.</h4>
     </div>
 
-    <div class="skills">
-      <h2 class="dark-bg-h2">My Skills.</h2>
+    <div id="skills" class="skills">
+      <h2 class="dark-bg-h2">My Skills</h2>
 
       <div class="skill-row">
         <img class="programming-img" src="images/programing.png" alt="programming-img">
         <div class="skill-text">
           <h3>Python and Java Programming Language</h3>
-          <h4>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</h4>
+          <h4>I've always been interested in programming and the OOP mindset clicked with me from the beginning of my college degree,
+          with Java, through my current project-inducing language, Python.</h4>
         </div>
       </div>
 
@@ -54,7 +63,8 @@
         <img class="godot-img" src="images/game-development.png" alt="game-dev-img">
         <div class="skill-text">
           <h3 style="text-align: right">Godot</h3>
-          <h4 style="text-align: right;">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</h4>
+          <h4 style="text-align: right;">Game have always been a part of my life so I was eager to put programming knowledge to develop videogames and,
+          finally, be a part of the team on the other side of the screen.</h4>
         </div>
       </div>
 
@@ -62,47 +72,55 @@
         <img class="photography-img" src="images/photography.png" alt="">
         <div class="skill-text">
           <h3>Photography</h3>
-          <h4>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</h4>
+          <h4>Although i've always been directed toward the exact sciences, my itch for photography never went away so I got myself
+          a camera and I never saw the world the same again.</h4>
+          <a class="photo-button" href="https://girottoph.pixieset.com/">Portfolio</a>
         </div>
       </div>
     </div>
 
 
 
-    <div class="projects">
+    <div id="projects" class="projects">
       <h2 class="dark-bg-h2">Projects</h2>
 
       <div class="flight-dealer-row">
         <h3>Flight Dealer</h3>
         <img class="project-img" src="images/airplane.png" alt="airplane-img">
-        <h4 class="project-text">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</h4>
+        <h4 class="project-text">A flight finder that e-mails you everyday a couple of brand new cheap flights to any city you want!</h4>
+        <a class="code-button" href="https://github.com/Maoaii/FlightDealer">Code</a>
       </div>
 
       <div class="automated-email-sender-row">
         <h3>Automated Email Sender</h3>
         <img class="project-img" src="images/email.png" alt="email-img">
-        <h4 class="project-text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</h4>
+        <h4 class="project-text">A desktop app that let's the user send out templated emails on bulk!</h4>
+        <a class="code-button" href="https://github.com/Maoaii/Automated_Email_Sender">Code</a>
       </div>
 
       <div class="flashcard-app-row">
         <h3>Flash Card App</h3>
         <img class="project-img" src="images/flash-card.png" alt="flash-card-img">
-        <h4 class="project-text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</ph4>
+        <h4 class="project-text">A simple flashcard app for learning anything you want!</h4>
+        <a class="code-button" href="https://github.com/Maoaii/Flashcard_App">Code</a>
       </div>
 
       <div class="snake-ade-row">
         <h3>Snake-ade</h3>
         <img class="project-img" src="images/snake.png" alt="snake-game-img">
-        <h4 class="project-text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</h4>
+        <h4 class="project-text">An arcade version of the classic Snake Game with powerups and powerdowns!</h4>
+        <a class="play-button" href="https://maoaii.itch.io/snake-ade">Play the Game!</a>
+        <a class="code-button" href="https://github.com/Maoaii/Snake-ade">Code</a>
+
       </div>
       <img style="width: 100%; height: 800px" src="images/background.jpeg" alt="background-image">
     </div>
 
-    <div class="contact-me">
+    <div id="contact-me" class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <h4>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</h4>
-      <a class="btn" href="mailto:l.girotto@campus.fct.unl.pt">CONTACT ME</a>
+      <h3>Looking for a developer?</h3>
+      <h4>Send me an email!</h4>
+      <a class="contact-button" href="mailto:l.girotto@campus.fct.unl.pt">CONTACT ME</a>
     </div>
 
   </div>

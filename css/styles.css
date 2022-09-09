@@ -1,19 +1,20 @@
 /* Color template: https://colorhunt.co/palette/1c3879607eaaeae3d2f9f5eb */
 
 body {
-  margin: 0;
+  margin: 60px 0 0 0;
   font-family: 'Merriweather', serif;
   text-align: center;
+  z-index: 1;
 }
 
 h1 {
-  font-size: 6.875rem;
+  font-size: 8vw;
   margin: 0;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.4vw;
   font-weight: normal;
   margin: 0;
   padding: 20px;
@@ -22,14 +23,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5vw;
   margin: 0;
   padding: 5px;
   font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.2vw;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
@@ -53,18 +54,28 @@ a:hover {
 
 #my-position {
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.6vw;
   left: 5%;
   top: 40%;
 }
 
 #my-photo {
   border-radius: 30px;
-  width: 31.25rem;
+  width: 37%;
   float: right;
   margin: 4rem 5rem auto 0;
   right: 8%;
   top: 8%;
+}
+
+.nav-bar {
+  background-color: #F9F5EB;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+  z-index: 2;
 }
 
 .top-container {
@@ -120,35 +131,93 @@ a:hover {
 
 .programming-img {
   float: left;
+  width: 10vw;
   margin-right: 30px;
 }
 
 .godot-img {
   float: right;
+  width: 10vw;
   margin-left: 30px;
 }
 
 .photography-img {
   float: left;
+  width: 10vw;
   margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.photo-button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1.3vw;
+  background: #EAE3D2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.photo-button:hover {
+  background: #F9F5EB;
+  text-decoration: none;
 }
 
 .projects {
   background-color: #354b72;
   position: relative;
+  line-height: 2;
 }
 
 .project-text {
   color: white;
-  text-align: justify;
+  margin: auto auto;
+  text-align: center;
 }
 
 .project-img {
   padding: 20px;
+  width: 10vw;
 }
 
 .projects h3 {
   color: #EAE3D2;
+}
+
+.code-button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1.3vw;
+  background: #EAE3D2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.code-button:hover {
+  background: #F9F5EB;
+  text-decoration: none;
+}
+
+.play-button {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 1.3vw;
+  background: #EAE3D2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.play-button:hover {
+  background: #F9F5EB;
+  text-decoration: none;
 }
 
 .flight-dealer-row {
@@ -156,7 +225,7 @@ a:hover {
   padding: 20px;
   width: 400px;
   left: 5%;
-  top: 10%;
+  top: 5%;
 }
 
 .automated-email-sender-row {
@@ -164,7 +233,7 @@ a:hover {
   padding: 20px;
   width: 400px;
   left: 5%;
-  bottom: 10%;
+  bottom: 5%;
 }
 
 .flashcard-app-row {
@@ -172,7 +241,7 @@ a:hover {
   padding: 20px;
   width: 400px;
   right: 5%;
-  top: 10%;
+  top: 5%;
 }
 
 .snake-ade-row {
@@ -180,7 +249,7 @@ a:hover {
   padding: 20px;
   width: 400px;
   right: 5%;
-  bottom: 10%;
+  bottom: 5%;
 }
 
 .dark-bg-h2 {
@@ -193,19 +262,19 @@ a:hover {
   line-height: 2;
 }
 
-.btn {
+.contact-button {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1.3vw;
   background: #1C3879;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.btn:hover {
+.contact-button:hover {
   background: #607EAA;
   text-decoration: none;
 }
@@ -217,6 +286,17 @@ a:hover {
 }
 
 .copyright {
-  font-size: 0.75rem;
+  font-size: 0.8vw;
   padding: 20px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .flight-dealer-row, .automated-email-sender-row, .flashcard-app-row, .snake-ade-row {
+    width: 49.999%;
+    display: block;
+  }
+
+  .project-text {
+    width: 40%;
+  }
 }
